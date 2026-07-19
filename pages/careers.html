@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edge Stone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+
+
+    
+    <div class="offcanvas offcanvas-start w-100" tabindex="-1" id="offcanvasExample"
+        aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-body">
+            <div class="container offcanvas-layout">
+                <div class="offcanvas-content container">
+                    <ul class="offcanvas-links">
+                        <li>
+                            <a href="index.html">HOME</a>
+                            <div class="underline-link"></div>
+                        </li>
+                        <li>
+                            <a href="about.html">ABOUT US</a>
+                            <div class="underline-link"></div>
+                        </li>
+                        <li>
+                            <a href="moraya.html">MORAYA</a>
+                            <div class="underline-link"></div>
+                        </li>
+                        <li>
+                            <a href="members.html">Board Members</a>
+                            <div class="underline-link"></div>
+                        </li>
+                        <li>
+                            <a href="careers.html">CAREERS</a>
+                            <div class="underline-link"></div>
+                        </li>
+                    </ul>
+                    <div class="contact d-flex flex-column align-items-start">
+                        <h4 class="mb-3"><i class="fa-solid fa-location-dot"></i> Building 60/3 El-Yasmin8,North
+                            teseen st,5
+                            settlement,New cairo.</h4>
+                        <h4 class="mb-3"><i class="fa-solid fa-envelope"></i> Info@edgestonedevelopments.com
+                        </h4>
+                        <div class="canvas-hotline">
+                            <i class="fa-solid fa-phone"></i> 17075
+                        </div>
+                        <div class="mode mt-3">
+                            <i class="fa-solid fa-tv fs-3"></i>
+                            <div class="dark-light mt-3">
+                                <h2>LIGHT</h2>
+                                <div class="form-check form-switch">
+                                    <input class="form-check-input" type="checkbox" role="switch"
+                                        id="switchCheckDefault">
+                                </div>
+                                <h2>DARK</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="offcanvas-social mb-5">
+            <ul class="offcanvas-ul mb-0 ps-0">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </ul>
+            <h5 class="offcanvas-rights mb-0 ms-md-auto ms-0">COPYRIGHT EDGEESTONE 2022</h5>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <div class="modal fade h-50 w-100" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false"
+        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable m-0 h-100 w-100 d-flex justify-content-center">
+            <div class="modal-content h-100 w-50">
+                <div class="modal-body">
+                    <div class="careers-container container mt-0 mb-5">
+                        <button type="button" class="btn close-modal ms-auto fs-5 mb-5" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal"><i class="fa-solid fa-xmark"></i></button>
+                        <i class="fa-solid fa-square-check fs-1 mb-3"></i>
+                        <h2 class="text-center">Your application<br>was sent to us</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="careers-container container mt-0 mb-5">
+                        <button type="button" class="btn close-modal ms-auto fs-5" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal"><i class="fa-solid fa-xmark"></i></button>
+                        <div class="careers-title mb-5">
+                            <h2>BOOK NOW</h2>
+                            <div class="underline"></div>
+                        </div>
+                        <form action="" class="w-100">
+                            <div class="row g-5">
+                                <div class="col-12">
+                                    <input class="form-control borders" type="text" placeholder="NAME"
+                                        aria-label="default input example">
+                                </div>
+                                <div class="col-12">
+                                    <input class="form-control borders" type="text" placeholder="EMAIL ADDRESS"
+                                        aria-label="default input example">
+                                </div>
+                                <div class="col-3">
+                                    <select class="form-select borders" aria-label="Default select example">
+                                        <option selected>+20</option>
+                                        <option value="1">+30</option>
+                                        <option value="2">+40</option>
+                                        <option value="3">+50</option>
+                                    </select>
+                                </div>
+                                <div class="col-9">
+                                    <input class="form-control borders" type="text" placeholder="MOBILE NUMBER"
+                                        aria-label="default input example">
+                                </div>
+                                <div class="col-12">
+                                    <select class="form-select borders" aria-label="Default select example">
+                                        <option selected>CHOOSE PROPERTY</option>
+                                        <option value="1">+30</option>
+                                        <option value="2">+40</option>
+                                        <option value="3">+50</option>
+                                    </select>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn form-control p-3 careers-submit">SUBMIT</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="header-bg d-block d-lg-none">
+    </div>
+    <header class="careers-header">
+        <div class="logo">
+            <img src="../assets/logo/logo.png" alt="">
+        </div>
+        <div class="book-menu">
+            <button class="book-now" data-bs-toggle="modal" data-bs-target="#staticBackdrop">BOOK NOW <i
+                    class="fa-solid fa-envelope"></i></button>
+            <button class="toggle-menu" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+                aria-controls="offcanvasExample"><i class="fa-solid fa-bars-staggered"></i></button>
+        </div>
+    </header>
+
+    <div class="careers-photo">
+    </div>
+
+    <div class="careers-container container mt-5 mb-5">
+        <div class="careers-title mb-5">
+            <h2>CAREERS</h2>
+            <div class="underline"></div>
+        </div>
+        <form action="" class="w-100">
+            <div class="row g-3">
+                <div class="col-12 col-md-6">
+                    <input class="form-control borders" type="text" placeholder="NAME"
+                        aria-label="default input example">
+                </div>
+                <div class="col-2 col-md-2">
+                    <select class="form-select borders" aria-label="Default select example">
+                        <option selected>+20</option>
+                        <option value="1">+30</option>
+                        <option value="2">+40</option>
+                        <option value="3">+50</option>
+                    </select>
+                </div>
+                <div class="col-10 col-md-4">
+                    <input class="form-control borders" type="text" placeholder="MOBILE NUMBER"
+                        aria-label="default input example">
+                </div>
+                <div class="col-12 col-md-6">
+                    <input class="form-control borders" type="text" placeholder="EMAIL ADDRESS"
+                        aria-label="default input example">
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <input class="form-control borders" type="text" placeholder="THE ROLE THAT YOU'R APPLING FOR"
+                        aria-label="default input example">
+                </div>
+                <div class="col-12">
+                    <textarea class="form-control borders" id="exampleFormControlTextarea1" rows="3"
+                        placeholder="MESSAGE TO HIRING MANAGER"></textarea>
+                </div>
+                <div class="col-12">
+                    <button class="btn form-control p-3 borders attach-btn">ATTACH YOUR Resume</button>
+                </div>
+                <div class="col-12">
+                    <button class="btn form-control p-3 careers-submit" data-bs-toggle="modal" type="button"
+                        data-bs-target="#staticBackdrop2">SUBMIT</button>
+                </div>
+            </div>
+        </form>
+        <div class="careers-mail container">
+            <h4 class="mb-3"><i class="fa-solid fa-envelope"></i> Info@edgestonedevelopments.com</h4>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <div class="home-footer">
+            <div class="icon mb-5 d-none d-md-block">
+                <img src="../assets/logo/logo.png" alt="">
+            </div>
+            <div class="information">
+                <div class="info-logo">
+                    <div class="info">
+                        <div class="contact">
+                            <h4 class="mb-3"><i class="fa-solid fa-location-dot"></i> Building 60/3 El-Yasmin8,North
+                                teseen st,5
+                                settlement,New cairo.</h4>
+                            <h4 class="mb-3"><i class="fa-solid fa-envelope"></i> Info@edgestonedevelopments.com</h4>
+                            <div class="hot-line">
+                                <i class="fa-solid fa-phone"></i> 17075
+                            </div>
+                        </div>
+                        <ul class="links d-none d-md-block">
+                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="about.html">ABOUT US</a></li>
+                            <li><a href="moraya.html">MORAYA</a></li>
+                            <li><a href="members.html">Board Members</a></li>
+                            <li><a href="careers.html">CAREERS</a></li>
+                        </ul>
+                        <ul class="links d-none d-md-block">
+                            <li><a href="index.html">HELP & SUPPORT</a></li>
+                            <li><a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">BOOK A UNIT</a></li>
+                        </ul>
+                    </div>
+                    <div class="icon">
+                        <img class="mb-5" src="../assets/backgrounds/Frame2.png" alt="">
+                        <ul class="footer-ul d-block d-md-none mb-0 ps-0">
+                            <a href="#" class="fs-3"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#" class="fs-3"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="#" class="fs-3"><i class="fa-brands fa-youtube"></i></a>
+                            <a href="#" class="fs-3"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#" class="fs-3"><i class="fa-brands fa-twitter"></i></a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="mt-0 mb-0 d-none d-md-block">
+        <div class="footer-social">
+            <ul class="footer-ul d-none d-md-block mb-0 ps-0">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </ul>
+            <h5 class="copy-right mb-0 ms-md-auto ms-0">COPYRIGHT EDGEESTONE 2022</h5>
+        </div>
+    </footer>
+
+    
+    <script src="dark.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
